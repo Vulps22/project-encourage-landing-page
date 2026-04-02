@@ -6,176 +6,10 @@
 <title>Privacy Policy — Truth or Dare Bot</title>
 <meta name="description" content="Privacy Policy for the Truth or Dare Bot Discord application. UK GDPR compliant.">
 <link rel="canonical" href="https://spicy.vulps.co.uk/privacy">
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
-:root {
-  --red: #e0103a;
-  --bg: #080808;
-  --surface: #111111;
-  --border: rgba(255,255,255,0.07);
-  --border-hot: rgba(224,16,58,0.35);
-  --text: #f0f0f0;
-  --muted: #666;
-  --muted2: #999;
-}
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 15px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
-.wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
-
-/* ── NAV ─────────────────────────────── */
-nav {
-  border-bottom: 1px solid var(--border);
-  padding: 18px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav-brand { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; color: #fff; text-decoration: none; }
-.nav-brand span { color: var(--red); }
-.nav-back { font-size: 13px; color: var(--muted); text-decoration: none; transition: color 0.15s; }
-.nav-back:hover { color: var(--red); }
-
-/* ── PAGE HEADER ─────────────────────── */
-.page-header {
-  padding: 52px 0 40px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 48px;
-  position: relative;
-  overflow: hidden;
-}
-.page-header::before {
-  content: '';
-  position: absolute;
-  top: -80px; left: -100px;
-  width: 400px; height: 300px;
-  background: radial-gradient(ellipse, rgba(224,16,58,0.08) 0%, transparent 70%);
-  pointer-events: none;
-}
-.page-eyebrow {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--red);
-  border: 1px solid var(--border-hot);
-  padding: 3px 12px;
-  border-radius: 20px;
-  margin-bottom: 16px;
-}
-.page-header h1 {
-  font-family: 'Syne', sans-serif;
-  font-size: clamp(26px, 4vw, 38px);
-  font-weight: 800;
-  color: #fff;
-  line-height: 1.1;
-  margin-bottom: 12px;
-}
-.page-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 20px;
-  font-size: 13px;
-  color: var(--muted);
-}
-.page-meta span { display: flex; align-items: center; gap: 6px; }
-
-/* ── POLICY CONTENT ──────────────────── */
-.policy-body { padding-bottom: 64px; }
-
-.policy-body h2 {
-  font-family: 'Syne', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  color: #fff;
-  margin: 48px 0 14px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--border);
-}
-.policy-body h3 {
-  font-family: 'Syne', sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--muted2);
-  margin: 28px 0 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 13px;
-}
-.policy-body p {
-  font-size: 14px;
-  color: var(--muted2);
-  line-height: 1.75;
-  font-weight: 300;
-  margin-bottom: 14px;
-}
-.policy-body ul {
-  margin: 0 0 16px 0;
-  padding: 0;
-  list-style: none;
-}
-.policy-body ul li {
-  font-size: 14px;
-  color: var(--muted2);
-  line-height: 1.7;
-  font-weight: 300;
-  padding: 6px 0 6px 20px;
-  border-bottom: 1px solid rgba(255,255,255,0.03);
-  position: relative;
-}
-.policy-body ul li:last-child { border-bottom: none; }
-.policy-body ul li::before {
-  content: '—';
-  position: absolute;
-  left: 0;
-  color: var(--red);
-  font-size: 12px;
-}
-.policy-body a { color: var(--red); text-decoration: none; }
-.policy-body a:hover { text-decoration: underline; }
-.policy-body strong { color: var(--text); font-weight: 500; }
-
-.info-box {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-left: 3px solid var(--red);
-  border-radius: 0 10px 10px 0;
-  padding: 16px 20px;
-  margin: 24px 0;
-}
-.info-box p { margin: 0; font-size: 13px; }
-
-.draft-notice {
-  background: rgba(224,16,58,0.06);
-  border: 1px solid var(--border-hot);
-  border-radius: 10px;
-  padding: 14px 20px;
-  margin-bottom: 40px;
-  font-size: 13px;
-  color: #ff7090;
-  text-align: center;
-  font-style: italic;
-}
-
-/* ── FOOTER ───────────────────────────── */
-footer { border-top: 1px solid var(--border); padding: 32px 0; text-align: center; }
-.footer-links { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px 24px; margin-bottom: 16px; }
-.footer-links a { font-size: 13px; color: var(--muted); text-decoration: none; transition: color 0.15s; }
-.footer-links a:hover { color: var(--red); }
-.footer-links a.active { color: var(--red); }
-.footer-links .sep { color: var(--border); font-size: 13px; }
-.footer-copy { font-size: 12px; color: var(--muted); }
-.footer-copy a { color: var(--muted); text-decoration: none; }
-.footer-copy a:hover { color: var(--red); }
-
-@media (max-width: 640px) {
-  .page-header { padding: 36px 0 28px; }
-  .footer-links { gap: 8px 16px; }
-}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="wrap">
+<div class="policy-wrap">
 
 <nav>
   <a href="/" class="nav-brand">Truth or Dare<span>.</span></a>
@@ -348,7 +182,7 @@ footer { border-top: 1px solid var(--border); padding: 32px 0; text-align: cente
 
 </div><!-- /policy-body -->
 
-<div style="height:1px;background:var(--border);"></div>
+<div class="divider"></div>
 
 <footer>
   <div class="footer-links">
