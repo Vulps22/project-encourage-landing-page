@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Truth or Dare Bot</title>
+<meta name="description" content="Privacy Policy for the Truth or Dare Bot Discord application. UK GDPR compliant.">
+<link rel="canonical" href="https://spicy.vulps.co.uk/privacy">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+:root {
+  --red: #e0103a;
+  --bg: #080808;
+  --surface: #111111;
+  --border: rgba(255,255,255,0.07);
+  --border-hot: rgba(224,16,58,0.35);
+  --text: #f0f0f0;
+  --muted: #666;
+  --muted2: #999;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 15px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+/* ── NAV ─────────────────────────────── */
+nav {
+  border-bottom: 1px solid var(--border);
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-brand { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; color: #fff; text-decoration: none; }
+.nav-brand span { color: var(--red); }
+.nav-back { font-size: 13px; color: var(--muted); text-decoration: none; transition: color 0.15s; }
+.nav-back:hover { color: var(--red); }
+
+/* ── PAGE HEADER ─────────────────────── */
+.page-header {
+  padding: 52px 0 40px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: -80px; left: -100px;
+  width: 400px; height: 300px;
+  background: radial-gradient(ellipse, rgba(224,16,58,0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+.page-eyebrow {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--red);
+  border: 1px solid var(--border-hot);
+  padding: 3px 12px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+.page-header h1 {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(26px, 4vw, 38px);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+.page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.page-meta span { display: flex; align-items: center; gap: 6px; }
+
+/* ── POLICY CONTENT ──────────────────── */
+.policy-body { padding-bottom: 64px; }
+
+.policy-body h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin: 48px 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.policy-body h3 {
+  font-family: 'Syne', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--muted2);
+  margin: 28px 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 13px;
+}
+.policy-body p {
+  font-size: 14px;
+  color: var(--muted2);
+  line-height: 1.75;
+  font-weight: 300;
+  margin-bottom: 14px;
+}
+.policy-body ul {
+  margin: 0 0 16px 0;
+  padding: 0;
+  list-style: none;
+}
+.policy-body ul li {
+  font-size: 14px;
+  color: var(--muted2);
+  line-height: 1.7;
+  font-weight: 300;
+  padding: 6px 0 6px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  position: relative;
+}
+.policy-body ul li:last-child { border-bottom: none; }
+.policy-body ul li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--red);
+  font-size: 12px;
+}
+.policy-body a { color: var(--red); text-decoration: none; }
+.policy-body a:hover { text-decoration: underline; }
+.policy-body strong { color: var(--text); font-weight: 500; }
+
+.info-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--red);
+  border-radius: 0 10px 10px 0;
+  padding: 16px 20px;
+  margin: 24px 0;
+}
+.info-box p { margin: 0; font-size: 13px; }
+
+.draft-notice {
+  background: rgba(224,16,58,0.06);
+  border: 1px solid var(--border-hot);
+  border-radius: 10px;
+  padding: 14px 20px;
+  margin-bottom: 40px;
+  font-size: 13px;
+  color: #ff7090;
+  text-align: center;
+  font-style: italic;
+}
+
+/* ── FOOTER ───────────────────────────── */
+footer { border-top: 1px solid var(--border); padding: 32px 0; text-align: center; }
+.footer-links { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px 24px; margin-bottom: 16px; }
+.footer-links a { font-size: 13px; color: var(--muted); text-decoration: none; transition: color 0.15s; }
+.footer-links a:hover { color: var(--red); }
+.footer-links a.active { color: var(--red); }
+.footer-links .sep { color: var(--border); font-size: 13px; }
+.footer-copy { font-size: 12px; color: var(--muted); }
+.footer-copy a { color: var(--muted); text-decoration: none; }
+.footer-copy a:hover { color: var(--red); }
+
+@media (max-width: 640px) {
+  .page-header { padding: 36px 0 28px; }
+  .footer-links { gap: 8px 16px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav>
+  <a href="/" class="nav-brand">Truth or Dare<span>.</span></a>
+  <a href="/" class="nav-back">← Back to site</a>
+</nav>
+
+<div class="page-header">
+  <div class="page-eyebrow">Legal</div>
+  <h1>Privacy Policy</h1>
+  <div class="page-meta">
+    <span>Effective: 2 April 2026</span>
+    <span>Jurisdiction: United Kingdom</span>
+    <span>Governing law: Scotland</span>
+  </div>
+</div>
+
+<div class="policy-body">
+
+  <div class="draft-notice">Draft document — review with a qualified legal professional before publication.</div>
+
+  <h2>1. Who We Are</h2>
+  <p>This Privacy Policy explains how Vulps ("we", "us", "our") collects, uses, stores, and protects personal data when you use the Truth or Dare Bot Discord application (the "Bot"). We are the data controller for the purposes of the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.</p>
+  <p>If you have any questions about this policy or how we handle your data, please contact us:</p>
+  <ul>
+    <li>Discord Support Server: <a href="https://discord.vulps.co.uk">discord.vulps.co.uk</a></li>
+    <li>Direct: Vulps22 on Discord</li>
+    <li>Website: <a href="https://vulps.co.uk">vulps.co.uk</a></li>
+  </ul>
+
+  <h2>2. Data We Collect</h2>
+
+  <h3>2.1 User Data</h3>
+  <p>When you interact with the Bot, we collect and store the following information about you:</p>
+  <ul>
+    <li>Your Discord User ID (a unique numerical identifier assigned by Discord)</li>
+    <li>Your Discord username (as it appears at the time of interaction)</li>
+    <li>Experience points (XP) and level progress across global and server-specific leaderboards</li>
+    <li>Vote count (from votes cast via Top.gg)</li>
+    <li>Whether you have accepted the Bot's rules and terms of service</li>
+    <li>Ban status, ban reason, and associated moderation message IDs, where applicable</li>
+    <li>Account creation date within the Bot's database</li>
+    <li>Scheduled deletion date, if a deletion request has been made</li>
+  </ul>
+
+  <h3>2.2 Server Data</h3>
+  <p>When a server administrator sets up the Bot in a Discord server, we collect:</p>
+  <ul>
+    <li>The Discord Server ID</li>
+    <li>The server name (as it appears at time of setup)</li>
+    <li>The Discord User ID of the server administrator who completed setup</li>
+    <li>Server configuration settings (XP values, designated channel IDs, announcement preferences)</li>
+    <li>Premium/entitlement status and entitlement expiry date</li>
+    <li>Ban status and moderation records relating to the server</li>
+  </ul>
+
+  <h3>2.3 User-Submitted Content</h3>
+  <p>If you use the /create command to submit a truth or dare question, we store:</p>
+  <ul>
+    <li>The text of the submitted question</li>
+    <li>Your Discord User ID as the submitter</li>
+    <li>The Discord Server ID from which the submission was made</li>
+    <li>Approval status, approval date, and the moderator's Discord User ID if approved</li>
+    <li>Ban status and ban reason if the question was removed</li>
+    <li>Deletion status and deletion date</li>
+  </ul>
+
+  <h3>2.4 Moderation &amp; Activity Data</h3>
+  <p>To operate our moderation system we collect:</p>
+  <ul>
+    <li>Reports submitted by users, including the reporting user's ID and the content being reported</li>
+    <li>Moderation actions taken (approvals, bans, unbans) including the moderator's ID and timestamps</li>
+    <li>Activity tracking data used to populate leaderboards</li>
+  </ul>
+
+  <h3>2.5 Data We Do Not Collect</h3>
+  <p>We do not collect email addresses, IP addresses, payment details, or any sensitive personal data as defined by UK GDPR Article 9. We do not use cookies or tracking technologies on any website associated with the Bot.</p>
+
+  <h2>3. Legal Basis for Processing</h2>
+  <p>Under UK GDPR, we rely on the following lawful bases:</p>
+  <ul>
+    <li><strong>Contract performance (Article 6(1)(b)):</strong> Processing necessary to provide the Bot's core gameplay, XP tracking, and server configuration features to users who have accepted our Terms of Service.</li>
+    <li><strong>Legitimate interests (Article 6(1)(f)):</strong> Processing necessary to maintain the safety and integrity of the service, including moderation logs, ban records, and abuse prevention. Our legitimate interest does not override your rights and freedoms.</li>
+    <li><strong>Legal obligation (Article 6(1)(c)):</strong> Where we are required by law to retain or disclose information.</li>
+  </ul>
+
+  <h2>4. How We Use Your Data</h2>
+  <p>We use the data we collect solely for the following purposes:</p>
+  <ul>
+    <li>Delivering the Bot's core features: truth and dare gameplay, question delivery, and interactive controls</li>
+    <li>Tracking XP and maintaining global and server-specific leaderboards</li>
+    <li>Managing the question approval queue and community content moderation</li>
+    <li>Enforcing community rules and our Terms of Service, including issuing and recording bans</li>
+    <li>Communicating service announcements to configured server channels</li>
+    <li>Enabling premium features for entitled servers</li>
+    <li>Improving the stability and reliability of the Bot through structured logs</li>
+  </ul>
+
+  <h2>5. Third-Party Services</h2>
+
+  <h3>5.1 Discord</h3>
+  <p>The Bot operates exclusively within the Discord platform. Discord processes interaction data as part of their platform. <a href="https://discord.com/privacy">Discord's Privacy Policy</a> is available at discord.com/privacy. We receive only the data Discord makes available through their API; we do not receive passwords or payment information.</p>
+
+  <h3>5.2 Top.gg</h3>
+  <p>The Bot is listed on Top.gg, a Discord bot directory. If you vote for the Bot on Top.gg, Top.gg sends a webhook notification to us containing your Discord User ID and vote timestamp. This is used to record your vote count within the Bot. <a href="https://top.gg/privacy">Top.gg's Privacy Policy</a> is available at top.gg/privacy.</p>
+
+  <h3>5.3 Hosting &amp; Infrastructure</h3>
+  <p>Your data is stored in a PostgreSQL database hosted by Contabo, with servers located in their Hub Europe data centre in Germany (European Union). The UK has granted adequacy status to the EU under UK GDPR, meaning this transfer is lawful without requiring additional safeguards.</p>
+
+  <h2>6. Data Retention</h2>
+  <p>We retain your data for as long as necessary to provide the Bot's services or as required by law. Specifically:</p>
+  <ul>
+    <li>User records are retained for the duration of your use of the Bot. If you request deletion, your record is scheduled for removal and purged within 30 days of your request.</li>
+    <li>Server records are retained while the Bot remains in the server. Records are marked as deleted when the Bot is removed, and purged within 30 days.</li>
+    <li>Moderation records, including permanent ban records, are retained indefinitely. This is necessary to enforce bans and protect the integrity of the service. A permanent ban is tied to your Discord account for its lifetime.</li>
+    <li>Question submissions are retained indefinitely to maintain the question pool, unless deleted upon request or as part of a moderation action.</li>
+  </ul>
+
+  <h2>7. Your Rights Under UK GDPR</h2>
+  <p>You have the following rights regarding your personal data:</p>
+  <ul>
+    <li><strong>Right of access:</strong> You may request a copy of the personal data we hold about you.</li>
+    <li><strong>Right to rectification:</strong> You may request correction of inaccurate data.</li>
+    <li><strong>Right to erasure:</strong> You may request deletion of your personal data, subject to our legitimate interests in retaining moderation records.</li>
+    <li><strong>Right to restriction:</strong> You may request that we limit how we use your data in certain circumstances.</li>
+    <li><strong>Right to data portability:</strong> You may request your data in a structured, machine-readable format.</li>
+    <li><strong>Right to object:</strong> You may object to processing based on legitimate interests.</li>
+    <li><strong>Right not to be subject to automated decisions:</strong> We do not make solely automated decisions with significant effects on you.</li>
+  </ul>
+  <p>To exercise any of these rights, please contact us via our Discord support server at <a href="https://discord.vulps.co.uk">discord.vulps.co.uk</a> or directly at Vulps22 on Discord. We will respond within one calendar month as required by UK GDPR. You also have the right to lodge a complaint with the <a href="https://ico.org.uk">Information Commissioner's Office (ICO)</a>.</p>
+
+  <h2>8. Data Security</h2>
+  <p>We implement appropriate technical and organisational measures to protect your data against unauthorised access, loss, or misuse. These include structured access controls on our database and sanitisation of sensitive values in our logging systems. No transmission over the internet is completely secure; while we strive to protect your data, we cannot guarantee absolute security.</p>
+
+  <h2>9. Minimum Age</h2>
+  <p>The Bot contains NSFW (Not Safe For Work) content. You must be at least 18 years of age to use the Bot, or the minimum age required by your local laws, whichever is greater. We do not knowingly collect personal data from individuals under the age of 18. If we become aware that we have collected data from a minor, we will delete it promptly. If you believe a minor has used the Bot, please contact us immediately.</p>
+
+  <h2>10. Child Safety &amp; the Online Safety Act 2023</h2>
+  <p>We take the safety of children seriously and have implemented a layered approach to preventing minors from accessing age-restricted content through the Bot.</p>
+
+  <h3>10.1 Platform-Level Controls</h3>
+  <p>The Bot operates entirely within the Discord platform. NSFW content can only be delivered within channels that have been designated as NSFW by a server administrator using Discord's own channel settings. Discord, as a regulated user-to-user service under the Online Safety Act 2023, applies its own age-gating controls to NSFW-designated channels. We rely on these platform-level controls as a first layer of child safety protection. As a third-party application operating within Discord's infrastructure, we have no independent ability to verify the age of individual users beyond what Discord's platform makes available to us.</p>
+
+  <h3>10.2 Our Own Safeguards</h3>
+  <p>In addition to Discord's platform controls, we apply the following safeguards:</p>
+  <ul>
+    <li>All user-submitted questions enter a human moderation queue before being added to the question pool. Any content that could be harmful to or exploitative of children is rejected and the submitting user may be banned.</li>
+    <li>We maintain an active reporting system that allows users to flag inappropriate content. Flagged content is reviewed by our moderators promptly.</li>
+    <li>Users and servers found to be attempting to circumvent age restrictions, or to expose minors to NSFW content, will be permanently banned from the Bot.</li>
+    <li>Our Terms &amp; Conditions require all users to be at least 18 years of age and confirm that use of the Bot by minors is prohibited.</li>
+  </ul>
+
+  <h3>10.3 Reporting Child Safety Concerns</h3>
+  <p>If you encounter content through the Bot that you believe may harm a child, please contact us immediately via our Discord support server at <a href="https://discord.vulps.co.uk">discord.vulps.co.uk</a> or directly at Vulps22 on Discord. You may also report concerns to the <a href="https://www.iwf.org.uk">Internet Watch Foundation</a> or the <a href="https://www.ceop.police.uk">NCA's CEOP Command</a>.</p>
+
+  <h2>11. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. The effective date at the top of this document reflects the most recent revision. Where changes are material, we will endeavour to notify users via our support server or within the Bot itself. Continued use of the Bot following an update constitutes acceptance of the revised policy.</p>
+
+  <h2>12. Contact &amp; Complaints</h2>
+  <p>For any privacy-related queries, to exercise your rights, or to raise a concern:</p>
+  <ul>
+    <li>Discord Support Server: <a href="https://discord.vulps.co.uk">discord.vulps.co.uk</a></li>
+    <li>Direct: Vulps22 on Discord</li>
+  </ul>
+  <p>If you are not satisfied with our response, you have the right to complain to the Information Commissioner's Office (ICO):</p>
+  <ul>
+    <li>Website: <a href="https://ico.org.uk">ico.org.uk</a></li>
+    <li>Telephone: 0303 123 1113</li>
+    <li>Address: Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF</li>
+  </ul>
+
+</div><!-- /policy-body -->
+
+<div style="height:1px;background:var(--border);"></div>
+
+<footer>
+  <div class="footer-links">
+    <a href="https://discord.vulps.co.uk">Support Server</a>
+    <span class="sep">·</span>
+    <a href="/privacy" class="active">Privacy Policy</a>
+    <span class="sep">·</span>
+    <a href="/terms">Terms &amp; Conditions</a>
+  </div>
+  <div class="footer-copy">&copy; 2026 <a href="https://vulps.co.uk">Vulps</a> · <a href="https://spicy.vulps.co.uk">spicy.vulps.co.uk</a></div>
+</footer>
+
+</div><!-- /wrap -->
+</body>
+</html>
